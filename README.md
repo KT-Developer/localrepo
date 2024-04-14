@@ -1,3 +1,3 @@
-# localrepo
+# Personal Projects
 <br>
-This is a local repo
+This is a personal project repo
