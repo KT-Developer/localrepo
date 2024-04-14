@@ -1,0 +1,82 @@
+body{
+    background-color: darkgoldenrod;
+}
+.to-do-list{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align: center;
+    margin-top: 80px;
+}
+h1{
+    font-size: 4rem;
+}
+button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: blue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.add-button{
+    background-color: orange;
+}
+.add-button:hover{
+    background-color: rgb(142, 105, 37);
+}
+.delete-button{
+    background-color: crimson;
+}
+.delete-button:hover{
+    background-color: rgb(152, 0, 30);
+}
+
+.move-up-button{
+    background-color: greenyellow;
+}
+.move-up-button:hover{
+    background-color: rgb(123, 192, 20);
+}
+
+.move-down-button{
+    background-color:aqua;
+}
+.move-down-button:hover{
+    background-color:aquamarine;
+}
+
+
+
+input[type="text"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid cadetblue;
+    border-radius: 7px;
+    color: black;
+}
+ol{
+    padding: 0;
+}
+li{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 15px;
+    background-color: wheat;
+    border: 3px solid rgb(83, 81, 81);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex:1;
+}
+
+ol button{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+
+}
